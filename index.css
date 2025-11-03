@@ -44,18 +44,20 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 20px 0;
+  padding: 50px 0;
   color: #e7e7e7
 }
 .names {
-  font-size: clamp(2rem, 12vw, 4rem);
+  font-size: clamp(2rem, 14vw, 4rem);
   text-shadow: #505050 1px 0 10px;
-  margin-top: 20px;
+  background-color: #0000005a;
+
 }
 .date {
   font-size: clamp(1rem, 15vw, 5rem);
   margin-top: 20px;
   text-shadow: #e5e7eb 1px 0 10px;
+  background-color: #0000005a;
 }
 .text {
   font-size: clamp(2rem, 7vw, 3rem);
