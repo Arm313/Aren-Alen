@@ -58,7 +58,7 @@ header {
   text-shadow: #e5e7eb 1px 0 10px;
 }
 .text {
-  font-size: clamp(1rem, 7vw, 3rem);
+  font-size: clamp(2rem, 7vw, 3rem);
   padding: 0 20px;
 }
 
@@ -79,16 +79,14 @@ header {
   width: 100%;
 }
 .city {
-  font-size: clamp(1.5rem, 6.5vw, 3rem);
+  font-size: clamp(2rem, 6.5vw, 3rem);
 }
-.address {
-  font-size: clamp(1.5rem, 5vw, 3rem);
-}
+
 .how-to-reach {
   background: none;
   padding: 12px 24px;
   color: #505050;
-  font-size: 1.5rem;
+  font-size: 2rem;
   border-radius: 20px;
   border: 2px solid #505050;
 }
@@ -120,10 +118,6 @@ header {
   /* height: 65vh; */
 }
 
-.countdown-title {
-  font-size: clamp(1.5rem, 8vw, 2.5rem);
-  text-align: start;
-}
 #countdown {
   display: flex;
   gap: 30px;
@@ -133,7 +127,7 @@ header {
 }
 #countdown p {
   font-weight: 700;
-  font-size: clamp(1.5rem, 8vw, 2.5rem);
+  font-size: clamp(3rem, 8vw, 4rem);
   font-family: "Armenia2";
 }
 .countdown-item {
@@ -142,7 +136,7 @@ header {
   gap: 3px;
 }
 #countdown span {
-  font-size: clamp(1rem, -1.5rem + 10vw, 2rem);
+  font-size: clamp(2rem, -1.5rem + 10vw, 2.5rem);
 }
 
 .countdown-item {
